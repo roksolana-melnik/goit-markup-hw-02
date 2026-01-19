@@ -19,7 +19,6 @@ a {
 .logo-part {
   color: #4d5ae5;
 }
-
 /* #region header */
 .page-header {
 }
@@ -69,30 +68,34 @@ a {
   font-style: normal;
 }
 .contacts-link {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /* #endregion header */
 
 /* #region hero */
-.hero-section{
-
+.hero-section {
+  background-color: #2e2f42;
 }
 .main-title {
   font-weight: 700;
-font-size: 56px;
-line-height: 1.07143;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
-background-color: #2e2f42
-
-;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
+
 .button-hero {
   cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
 }
 /* #endregion hero */
 
@@ -106,25 +109,49 @@ background-color: #2e2f42
 .features-list-item {
 }
 .features-list-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .features-list-information {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion features */
 
 /* #region team */
 .team-section {
+  background-color: #f4f4fd;
 }
 .team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
+
 .team-list {
 }
 .team-list-item {
+  background-color: #fff;
 }
 .team-photo {
 }
 .team-member-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .team-member-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 /* #endregion team */
 
@@ -132,6 +159,11 @@ background-color: #2e2f42
 .portfolio-section {
 }
 .portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .potfolio-list {
 }
@@ -140,18 +172,23 @@ background-color: #2e2f42
 .portfolio-image {
 }
 .portfolio-image-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-title-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* #endregion portfolio */
 
 /* #region footer */
-
-.footer-resume {
-}
 .page-footer {
   background-color: #2e2f42;
 }
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -159,6 +196,12 @@ background-color: #2e2f42
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-resume {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
