@@ -6,26 +6,160 @@ body {
   color: #434455;
   background-color: #fff;
 }
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-part {
+  color: #4d5ae5;
+}
+
+/* #region header */
 .page-header {
 }
 
 .page-nav {
 }
 
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
 .nav-list {
 }
 
 .nav-list-item {
 }
 
-.address-list {
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.address-list-item {
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+.contacts {
 }
 
+.contacts-list {
+}
+
+.contacts-list-item {
+}
+
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+/* #endregion header */
+
+/* #region hero */
+.hero-section{
+
+}
 .main-title {
+  font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+background-color: #2e2f42
+
+;
+}
+.button-hero {
+  cursor: pointer;
+}
+/* #endregion hero */
+
+/* #region features */
+.features-section {
+}
+.features-title {
+}
+.features-list {
+}
+.features-list-item {
+}
+.features-list-title {
+}
+.features-list-information {
+}
+/* #endregion features */
+
+/* #region team */
+.team-section {
+}
+.team-title {
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-photo {
+}
+.team-member-title {
+}
+.team-member-role {
+}
+/* #endregion team */
+
+/* #region portfolio */
+.portfolio-section {
+}
+.portfolio-title {
+}
+.potfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-image {
+}
+.portfolio-image-title {
+}
+.portfolio-title-description {
+}
+/* #endregion portfolio */
+
+/* #region footer */
+
+.footer-resume {
+}
+.page-footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
-.button-hero {
-}
+/* #endregion footer */
