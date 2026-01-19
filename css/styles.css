@@ -4,6 +4,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  line-height: normal;
   background-color: #fff;
 }
 
@@ -100,7 +101,7 @@ a {
 }
 .button-hero:focus,
 .button-hero:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 /* #endregion hero */
 
