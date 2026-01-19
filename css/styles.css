@@ -91,11 +91,16 @@ a {
 
 .button-hero {
   cursor: pointer;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+}
+.button-hero:focus,
+.button-hero:hover {
+  color: #404bbf;
 }
 /* #endregion hero */
 
@@ -109,6 +114,7 @@ a {
 .features-list-item {
 }
 .features-list-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -141,6 +147,7 @@ a {
 .team-photo {
 }
 .team-member-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -165,13 +172,14 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-.potfolio-list {
+.portfolio-list {
 }
 .portfolio-list-item {
 }
 .portfolio-image {
 }
 .portfolio-image-title {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
